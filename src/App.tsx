@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
+import './assets/styles.sass';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section className="hero">
+        <div className="hero-body">
+          <div className="container">
+            <div className="columns">
+              <div className="column is-10 is-offset-1">
+                <div className="section">
+                  <h1 className="title">JJUG CCC 2021 Spring</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
