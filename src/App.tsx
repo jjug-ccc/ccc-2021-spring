@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <section className="hero">
+      <section className="hero is-primary is-bold is-medium">
         <div className="hero-body">
           <div className="container">
             <div className="columns">
