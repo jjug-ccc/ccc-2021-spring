@@ -3,6 +3,7 @@ import './assets/styles.sass';
 import './App.css';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import Description from './components/Description';
 
 function App() {
   return (
@@ -20,6 +21,20 @@ function App() {
             </div>
           </div>
         </div>
+      </section>
+      <section className='section section--gradient'>
+          <div className='container'>
+              <div className='section'>
+                  <div className='columns'>
+                      <div className='column is-10 is-offset-1'>
+                          <div className='content'>
+                              <h3 className='has-text-weight-semibold is-size-3 is-size-4-mobile'>開催概要</h3>
+                              <Description />
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </section>
       <Footer />
     </div>
