@@ -1,7 +1,8 @@
 import React from 'react';
 import './assets/styles.sass';
 import './App.css';
-import NavBar from "./components/NavBar";
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }
