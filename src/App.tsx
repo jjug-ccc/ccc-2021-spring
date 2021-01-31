@@ -14,7 +14,7 @@ function App() {
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="section">
-                  <h1 className="title">JJUG CCC 2021 Spring</h1>
+                  <h1 className="title is-size-4-mobile">JJUG CCC 2021 Spring</h1>
                 </div>
               </div>
             </div>
