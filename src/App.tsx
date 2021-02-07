@@ -4,6 +4,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Description from './components/Description';
+import About from './components/About';
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
                           <div className='content'>
                               <h3 className='has-text-weight-semibold is-size-3 is-size-4-mobile'>開催概要</h3>
                               <Description />
+                              <h3 className='has-text-weight-semibold is-size-3 is-size-4-mobile'>JJUGについて</h3>
+                              <About />
                           </div>
                       </div>
                   </div>
