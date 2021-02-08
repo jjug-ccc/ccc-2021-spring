@@ -30,11 +30,11 @@ function App() {
                   <div className='columns'>
                       <div className='column is-10 is-offset-1'>
                           <div className='content'>
-                              <h3 className='has-text-weight-semibold is-size-3 is-size-4-mobile'>開催概要</h3>
+                              <h3 className='has-text-weight-semibold is-size-3 is-size-5-mobile'>開催概要</h3>
                               <Description />
-                              <h3 className='has-text-weight-semibold is-size-3 is-size-4-mobile'>JJUGについて</h3>
+                              <h3 className='has-text-weight-semibold is-size-3 is-size-5-mobile'>JJUGについて</h3>
                               <About />
-                              <h3 className='has-text-weight-semibold is-size-3 is-size-4-mobile'>JJUG CCCでの行動規範</h3>
+                              <h3 className='has-text-weight-semibold is-size-3 is-size-5-mobile'>JJUG CCCでの行動規範</h3>
                               <Coc />
                           </div>
                       </div>
