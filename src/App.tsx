@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Description from './components/Description';
 import About from './components/About';
+import Coc from './components/Coc';
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
                               <Description />
                               <h3 className='has-text-weight-semibold is-size-3 is-size-4-mobile'>JJUGについて</h3>
                               <About />
+                              <h3 className='has-text-weight-semibold is-size-3 is-size-4-mobile'>JJUG CCCでの行動規範</h3>
+                              <Coc />
                           </div>
                       </div>
                   </div>
