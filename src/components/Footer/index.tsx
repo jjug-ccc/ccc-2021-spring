@@ -9,8 +9,8 @@ const Footer = () => (
       <div className='content'>
         <div className="columns is-desktop">
           <div className="column content has-text-left-desktop">
-            <FontAwesomeIcon icon={faTwitter}/>
-            <FontAwesomeIcon icon={faFacebook}/>
+            <a href="https://www.facebook.com/japanjug/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook}/></a>
+            <a href="https://twitter.com/jjug"  target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter}/></a>
           </div>
           <div className="column content has-text-right-desktop">
             <p>Copyright © 2007-2021 JJUG - All rights reserved.</p>
