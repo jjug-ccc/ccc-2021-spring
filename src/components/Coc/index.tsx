@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Coc = () => (
+const Coc: React.FC = () => (
   <div>
     <p>
       JJUG CCCオンラインに参加するにあたり，すべての参加者は以下の行動規範に同意していただく必要があります。

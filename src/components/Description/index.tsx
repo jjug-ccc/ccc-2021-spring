@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Description = () => (
+const Description : React.FC = () => (
   <div className="content">
     <p>
       JJUG CCCは毎年2回、春と秋に開催する日本最大のJavaコミュニティイベントです。<br/>

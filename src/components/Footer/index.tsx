@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import '../../assets/styles.sass';
 
-const Footer = () => (
+const Footer : React.FC = () => (
   <footer className="footer">
     <div className='container'>
       <div className='content'>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = () => (
+const About: React.FC = () => (
   <div className="content">
     <p>日本Javaユーザーグループ（Japan Java User Group/JJUG）は9000人以上の Javaエンジニアが参加する日本最大のJavaコミュニティです。以下のような活動を行っています。</p>
     <dl>
