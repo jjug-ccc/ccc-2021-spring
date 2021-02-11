@@ -1,0 +1,19 @@
+{
+  "description": {
+    "text": "JJUG CCC is the largest Java community event organized by Japan Java User Group (JJUG), held twice a year in spring and autumn. It provides great sessions of Java-related technologies and practices, and brings together Java engineers from different disciplines.",
+    "title": {
+      "organizer": "Organizer",
+      "date": "Date",
+      "participationFee": "Participation Fee",
+      "register": "Register",
+      "schedule": "Schedule",
+      "hashtag": "Hashtag"
+    },
+    "data": {
+      "organizer": "Japan Java User Group",
+      "date": "23th May. 2021 (Sun)",
+      "participationFee": "Free",
+      "hashtag": "We will also use separate hashtags for each session"
+    }
+  }
+}
