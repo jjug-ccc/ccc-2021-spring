@@ -35,18 +35,18 @@ function App() {
         <a className="button has-text-danger-dark is-ghost" onClick={() => changeLanguage('ja')}><b>Ja</b></a>
         <a className="button has-text-danger-dark is-ghost" onClick={() => changeLanguage('en')}><b>En</b></a>
       </div>
-      <div className='section'>
-        <div className='container'>
+      <div className="section">
+        <div className="container">
           <div className="block">
-            <h3 className='title has-text-weight-semibold is-size-3 is-size-5-mobile'>{t("contentTitle.description")}</h3>
+            <h3 className="title has-text-weight-semibold is-size-3 is-size-5-mobile">{t("contentTitle.description")}</h3>
             <Description/>
           </div>
           <div className="block">
-            <h3 className='title has-text-weight-semibold is-size-3 is-size-5-mobile'>{t("contentTitle.aboutJjug")}</h3>
+            <h3 className="title has-text-weight-semibold is-size-3 is-size-5-mobile">{t("contentTitle.aboutJjug")}</h3>
             <About/>
           </div>
           <div className="block">
-            <h3 className='title has-text-weight-semibold is-size-3 is-size-5-mobile'>{t("contentTitle.coc")}</h3>
+            <h3 className="title has-text-weight-semibold is-size-3 is-size-5-mobile">{t("contentTitle.coc")}</h3>
             <Coc />
           </div>
         </div>
