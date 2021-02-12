@@ -5,6 +5,8 @@ import { useTranslation } from 'react-i18next';
 const About: React.FC = () => {
   const { t, i18n } = useTranslation();
 
+  const text2Array: Array<string> = t("about.text2", { returnObjects: true });
+
   return <div className="content">
     <p>{t("about.text1")}</p>
     <dl>
@@ -17,8 +19,7 @@ const About: React.FC = () => {
       <dt>{t("about.title.internationalConferences")}</dt>
       <dd>{t("about.data.internationalConferences")}</dd>
     </dl>
-
-    <p>{t("about.text2.detail1")}<a href="http://www.java-users.jp/" target="blank" rel="noopener">{t("about.text2.detail2")}</a>{t("about.text2.detail3")}<a href="https://jjug.doorkeeper.jp/" target="blank" rel="noopener">{t("about.text2.detail4")}</a>{t("about.text2.detail5")}</p>
+    <p>{text2Array[0]}<a href="http://www.java-users.jp/" target="blank" rel="noopener">{text2Array[1]}</a>{text2Array[2]}<a href="https://jjug.doorkeeper.jp/" target="blank" rel="noopener">{text2Array[3]}</a>{text2Array[4]}</p>
   </div>
 };
 

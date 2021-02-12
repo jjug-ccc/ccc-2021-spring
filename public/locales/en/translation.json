@@ -18,13 +18,7 @@
   },
   "about": {
     "text1": "The Japan Java User Group (JJUG) is the largest Java community in Japan with over 9000 Java engineers. The following activities are conducted.",
-    "text2": {
-      "detail1": "Please check JJUG ",
-      "detail2": "official website",
-      "detail3": " and ",
-      "detail4": "community page (DoorKeeper)",
-      "detail5": " for more detail information."
-    },
+    "text2": ["Please check JJUG ", "official website", " and ", "community page (DoorKeeper)", " for more detail information."],
     "title": {
       "nightSeminar": "Night Seminar",
       "jjugccc": "JJUG CCC",
