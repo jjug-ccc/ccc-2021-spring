@@ -1,22 +1,25 @@
 import React from 'react';
+import '../../i18n';
+import { useTranslation } from 'react-i18next';
 
-const About: React.FC = () => (
-  <div className="content">
-    <p>日本Javaユーザーグループ（Japan Java User Group/JJUG）は9000人以上の Javaエンジニアが参加する日本最大のJavaコミュニティです。以下のような活動を行っています。</p>
+const About: React.FC = () => {
+  const { t, i18n } = useTranslation();
+
+  return <div className="content">
+    <p>{t("about.text1")}</p>
     <dl>
-      <dt>ナイトセミナー</dt>
-      <dd>毎月1回夜に開催する勉強会</dd>
-      <dt>JJUG CCC</dt>
-      <dd>年2回（春と秋）に開催する1日カンファレンス</dd>
-      <dt>地方講師派遣</dt>
-      <dd>地方Javaコミュニティへの講師派遣</dd>
-      <dt>国際会議参加</dt>
-      <dd>世界中のJUGとの交流</dd>
+      <dt>{t("about.title.nightSeminar")}</dt>
+      <dd>{t("about.data.nightSeminar")}</dd>
+      <dt>{t("about.title.jjugccc")}</dt>
+      <dd>{t("about.data.jjugccc")}</dd>
+      <dt>{t("about.title.instructorDispatch")}</dt>
+      <dd>{t("about.data.instructorDispatch")}</dd>
+      <dt>{t("about.title.internationalConferences")}</dt>
+      <dd>{t("about.data.internationalConferences")}</dd>
     </dl>
 
-    <p>詳しくはJJUGの<a href="http://www.java-users.jp/" target="blank" rel="noopener">オフィシャルサイト</a>や<a
-      href="https://jjug.doorkeeper.jp/" target="blank" rel="noopener">コミュニティページ（DoorKeeper）</a>を確認してください。</p>
+    <p>{t("about.text2.detail1")}<a href="http://www.java-users.jp/" target="blank" rel="noopener">{t("about.text2.detail2")}</a>{t("about.text2.detail3")}<a href="https://jjug.doorkeeper.jp/" target="blank" rel="noopener">{t("about.text2.detail4")}</a>{t("about.text2.detail5")}</p>
   </div>
-);
+};
 
 export default About;

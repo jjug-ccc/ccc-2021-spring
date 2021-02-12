@@ -15,5 +15,27 @@
       "participationFee": "無料",
       "hashtag": "セッションごとのハッシュタグあり"
     }
+  },
+  "about": {
+    "text1": "日本Javaユーザーグループ（Japan Java User Group/JJUG）は9000人以上の Javaエンジニアが参加する日本最大のJavaコミュニティです。以下のような活動を行っています。",
+    "text2": {
+      "detail1": "詳しくはJJUGの",
+      "detail2": "オフィシャルサイト",
+      "detail3": "や",
+      "detail4": "コミュニティページ（DoorKeeper）",
+      "detail5": "を確認してください。"
+    },
+    "title": {
+      "nightSeminar": "ナイトセミナー",
+      "jjugccc": "JJUG CCC",
+      "instructorDispatch": "地方講師派遣",
+      "internationalConferences": "国際会議参加"
+    },
+    "data": {
+      "nightSeminar": "毎月1回夜に開催する勉強会",
+      "jjugccc": "年2回（春と秋）に開催する1日カンファレンス",
+      "instructorDispatch": "地方Javaコミュニティへの講師派遣",
+      "internationalConferences": "世界中のJUGとの交流"
+    }
   }
 }
