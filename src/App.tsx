@@ -22,7 +22,7 @@ function App() {
         <div className="hero-body">
           <div className="container">
             <div className="columns">
-              <div className="column is-10 is-offset-1">
+              <div className="column">
                 <div className="section">
                   <h1 className="title is-size-4-mobile">JJUG CCC 2021 Spring</h1>
                 </div>
@@ -32,35 +32,25 @@ function App() {
         </div>
       </section>
       <div className='container'>
-        <div className='section'>
+        <a className="button is-ghost" onClick={() => changeLanguage('ja')}>Ja</a>
+        <a className="button is-ghost" onClick={() => changeLanguage('en')}>En</a>
+      </div>
+      <div className='section section--gradient'>
+        <div className='container'>
           <div className='columns'>
-            <div className='column is-10 is-offset-1'>
+            <div className='column'>
               <div className='content'>
-                <span onClick={() => changeLanguage('ja')} className="has-text-left">ja</span>
-                <span onClick={() => changeLanguage('en')} className="has-text-left">en</span>
+                <h3 className='has-text-weight-semibold is-size-3 is-size-5-mobile'>{t("contentTitle.description")}</h3>
+                <Description/>
+                <h3 className='has-text-weight-semibold is-size-3 is-size-5-mobile'>{t("contentTitle.aboutJjug")}</h3>
+                <About/>
+                <h3 className='has-text-weight-semibold is-size-3 is-size-5-mobile'>{t("contentTitle.coc")}</h3>
+                <Coc/>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <section className='section section--gradient'>
-        <div className='container'>
-          <section className='section'>
-            <div className='columns'>
-              <div className='column is-10 is-offset-1'>
-                <div className='content'>
-                  <h3 className='has-text-weight-semibold is-size-3 is-size-5-mobile'>{t("contentTitle.description")}</h3>
-                  <Description/>
-                  <h3 className='has-text-weight-semibold is-size-3 is-size-5-mobile'>{t("contentTitle.aboutJjug")}</h3>
-                  <About/>
-                  <h3 className='has-text-weight-semibold is-size-3 is-size-5-mobile'>{t("contentTitle.coc")}</h3>
-                  <Coc/>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </section>
       <Footer/>
     </div>
   );
