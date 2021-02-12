@@ -32,8 +32,8 @@ function App() {
         </div>
       </section>
       <div className='container'>
-        <a className="button is-ghost" onClick={() => changeLanguage('ja')}>Ja</a>
-        <a className="button is-ghost" onClick={() => changeLanguage('en')}>En</a>
+        <a className="button is-ghost" onClick={() => changeLanguage('ja')}><b>Ja</b></a>
+        <a className="button is-ghost" onClick={() => changeLanguage('en')}><b>En</b></a>
       </div>
       <div className='section section--gradient'>
         <div className='container'>
