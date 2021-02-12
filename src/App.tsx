@@ -37,17 +37,17 @@ function App() {
       </div>
       <div className='section section--gradient'>
         <div className='container'>
-          <div className='columns'>
-            <div className='column'>
-              <div className='content'>
-                <h3 className='has-text-weight-semibold is-size-3 is-size-5-mobile'>{t("contentTitle.description")}</h3>
-                <Description/>
-                <h3 className='has-text-weight-semibold is-size-3 is-size-5-mobile'>{t("contentTitle.aboutJjug")}</h3>
-                <About/>
-                <h3 className='has-text-weight-semibold is-size-3 is-size-5-mobile'>{t("contentTitle.coc")}</h3>
-                <Coc />
-              </div>
-            </div>
+          <div className="block">
+            <h3 className='title has-text-weight-semibold is-size-3 is-size-5-mobile'>{t("contentTitle.description")}</h3>
+            <Description/>
+          </div>
+          <div className="block">
+            <h3 className='title has-text-weight-semibold is-size-3 is-size-5-mobile'>{t("contentTitle.aboutJjug")}</h3>
+            <About/>
+          </div>
+          <div className="block">
+            <h3 className='title has-text-weight-semibold is-size-3 is-size-5-mobile'>{t("contentTitle.coc")}</h3>
+            <Coc />
           </div>
         </div>
       </div>
