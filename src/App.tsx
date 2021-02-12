@@ -11,7 +11,9 @@ import './i18n';
 import { useTranslation } from 'react-i18next';
 
 function App() {
-  const { t, i18n } = useTranslation();
+  const {t, i18n} = useTranslation();
+
+  const changeLanguage = (lng: string) => (i18n.changeLanguage(lng));
 
   return (
     <div className="App">
@@ -29,9 +31,21 @@ function App() {
           </div>
         </div>
       </section>
+      <div className='container'>
+        <div className='section'>
+          <div className='columns'>
+            <div className='column is-10 is-offset-1'>
+              <div className='content'>
+                <span onClick={() => changeLanguage('ja')} className="has-text-left">ja</span>
+                <span onClick={() => changeLanguage('en')} className="has-text-left">en</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <section className='section section--gradient'>
         <div className='container'>
-          <div className='section'>
+          <section className='section'>
             <div className='columns'>
               <div className='column is-10 is-offset-1'>
                 <div className='content'>
@@ -44,7 +58,7 @@ function App() {
                 </div>
               </div>
             </div>
-          </div>
+          </section>
         </div>
       </section>
       <Footer/>
