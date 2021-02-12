@@ -1,4 +1,10 @@
 {
+  "contentTitle": {
+    "description": "Description",
+    "aboutJjug": "About JJUG",
+    "coc": "JJUG CCC Code of Conduct",
+    "sponsor": "Sponsors"
+  },
   "description": {
     "text": "JJUG CCC is the largest Java community event organized by Japan Java User Group (JJUG), held twice a year in spring and autumn. It provides great sessions of Java-related technologies and practices, and brings together Java engineers from different disciplines.",
     "title": {

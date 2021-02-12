@@ -7,7 +7,12 @@ import Description from './components/Description';
 import About from './components/About';
 import Coc from './components/Coc';
 
+import './i18n';
+import { useTranslation } from 'react-i18next';
+
 function App() {
+  const { t, i18n } = useTranslation();
+
   return (
     <div className="App">
       <NavBar/>
@@ -30,11 +35,11 @@ function App() {
             <div className='columns'>
               <div className='column is-10 is-offset-1'>
                 <div className='content'>
-                  <h3 className='has-text-weight-semibold is-size-3 is-size-5-mobile'>開催概要</h3>
+                  <h3 className='has-text-weight-semibold is-size-3 is-size-5-mobile'>{t("contentTitle.description")}</h3>
                   <Description/>
-                  <h3 className='has-text-weight-semibold is-size-3 is-size-5-mobile'>JJUGについて</h3>
+                  <h3 className='has-text-weight-semibold is-size-3 is-size-5-mobile'>{t("contentTitle.aboutJjug")}</h3>
                   <About/>
-                  <h3 className='has-text-weight-semibold is-size-3 is-size-5-mobile'>JJUG CCCでの行動規範</h3>
+                  <h3 className='has-text-weight-semibold is-size-3 is-size-5-mobile'>{t("contentTitle.coc")}</h3>
                   <Coc/>
                 </div>
               </div>
