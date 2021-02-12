@@ -35,7 +35,7 @@ function App() {
         <a className="button is-ghost" onClick={() => changeLanguage('ja')}><b>Ja</b></a>
         <a className="button is-ghost" onClick={() => changeLanguage('en')}><b>En</b></a>
       </div>
-      <div className='section section--gradient'>
+      <div className='section'>
         <div className='container'>
           <div className="block">
             <h3 className='title has-text-weight-semibold is-size-3 is-size-5-mobile'>{t("contentTitle.description")}</h3>
