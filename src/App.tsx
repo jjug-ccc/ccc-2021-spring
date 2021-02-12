@@ -31,7 +31,7 @@ function App() {
           </div>
         </div>
       </section>
-      <div className='container'>
+      <div className="container has-text-right">
         <a className="button is-ghost" onClick={() => changeLanguage('ja')}><b>Ja</b></a>
         <a className="button is-ghost" onClick={() => changeLanguage('en')}><b>En</b></a>
       </div>
