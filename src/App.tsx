@@ -45,7 +45,7 @@ function App() {
                 <h3 className='has-text-weight-semibold is-size-3 is-size-5-mobile'>{t("contentTitle.aboutJjug")}</h3>
                 <About/>
                 <h3 className='has-text-weight-semibold is-size-3 is-size-5-mobile'>{t("contentTitle.coc")}</h3>
-                <Coc/>
+                <Coc />
               </div>
             </div>
           </div>
