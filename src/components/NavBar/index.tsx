@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/styles.sass';
+import '../../assets/styles.scss';
 import jjug_logo from '../../static/icons/jjug_logo.png';
 
 const NavBar : React.FC = () => (

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faFacebook } from '@fortawesome/free-brands-svg-icons';
-import '../../assets/styles.sass';
+import '../../assets/styles.scss';
 
 const Footer : React.FC = () => (
   <footer className="footer">
