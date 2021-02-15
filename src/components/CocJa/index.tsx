@@ -1,4 +1,5 @@
 import React from 'react';
+import { CONTACT } from '../../constant';
 
 const CocJa: React.FC = () => (
   <div>
@@ -22,9 +23,8 @@ const CocJa: React.FC = () => (
     </ul>
     <p>JJUG幹事会スタッフには次の方法で連絡できます。</p>
     <ul>
-      <li>メール: jjug.ccc@gmail.com</li>
-      <li>公開Webフォーム: <a href="https://forms.gle/XtFQiZbBwmKeS7h39" target="_blank"
-                        rel="noopener noreferrer">https://forms.gle/XtFQiZbBwmKeS7h39</a></li>
+      <li>メール: {CONTACT.email}</li>
+      <li>公開Webフォーム: <a href={CONTACT.cocForm} target="_blank" rel="noopener noreferrer">{CONTACT.cocForm}</a></li>
     </ul>
     <p>JJUG幹事会は，ハラスメントにあった方が，イベント中に安全かつ安心と感じられるように，次のような対応を行います。</p>
     <ul>

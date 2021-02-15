@@ -1,4 +1,5 @@
 import React from 'react';
+import { CONTACT } from '../../constant';
 
 const CocEn = () => (
   <div>
@@ -16,8 +17,8 @@ const CocEn = () => (
     </p>
     <p>If you are being harassed, notice somebody else is being harassed, or have any other concerns, please contact a member of JJUG staff immediately.</p>
     <ul>
-      <li>Email: jjug.ccc@gmail.com</li>
-      <li>Web Form: <a href="https://forms.gle/XtFQiZbBwmKeS7h39" target="_blank" rel="noopener noreferrer">https://forms.gle/XtFQiZbBwmKeS7h39</a></li>
+      <li>Email: {CONTACT.email}</li>
+      <li>Web Form: <a href={CONTACT.cocForm} target="_blank" rel="noopener noreferrer">{CONTACT.cocForm}</a></li>
     </ul>
     <p>JJUG will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the event.</p>
     <p>We value your attendance.</p>
