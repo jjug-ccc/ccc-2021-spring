@@ -1,4 +1,7 @@
 {
+  "nav": {
+    "registerBtn": "登録"
+  },
   "contentTitle": {
     "description": "開催概要",
     "aboutJjug": "JJUGについて",

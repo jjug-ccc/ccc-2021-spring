@@ -1,4 +1,7 @@
 {
+  "nav": {
+    "registerBtn": "Register"
+  },
   "contentTitle": {
     "description": "Description",
     "aboutJjug": "About JJUG",

@@ -3,6 +3,7 @@ export const LINK = {
   facebook: "https://www.facebook.com/japanjug/",
   doorKeeper: "https://jjug.doorkeeper.jp/",
   officialSite: "http://www.java-users.jp/",
+  register: "",
 }
 
 export const CONTACT = {
