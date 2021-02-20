@@ -13,7 +13,7 @@ import { useTranslation } from 'react-i18next';
 const App : React.FC = () => {
   const {t, i18n} = useTranslation();
 
-  const changeLanguage = (lng: string) => (i18n.changeLanguage(lng));
+  const changeLanguage = (lng: string) => (i18n.changeLanguage(lng === 'ja' ? 'ja' : 'en'));
 
   return (
     <div className="App">
@@ -31,9 +31,13 @@ const App : React.FC = () => {
           </div>
         </div>
       </section>
-      <div className="container has-text-right">
-        <a className="button has-text-danger-dark is-ghost" onClick={() => changeLanguage('ja')}><b>Ja</b></a>
-        <a className="button has-text-danger-dark is-ghost" onClick={() => changeLanguage('en')}><b>En</b></a>
+      <div className="container has-text-right mt-2">
+        <div className="select">
+          <select value={i18n.language} onChange={(e) => { changeLanguage(e.target.value)}}>
+            <option value="ja">Ja</option>
+            <option value="en">En</option>
+          </select>
+        </div>
       </div>
       <div className="section">
         <div className="container">
