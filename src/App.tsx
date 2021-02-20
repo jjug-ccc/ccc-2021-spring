@@ -34,8 +34,8 @@ const App : React.FC = () => {
       <div className="container has-text-right mt-2">
         <div className="select">
           <select value={i18n.language} onChange={(e) => { changeLanguage(e.target.value)}}>
-            <option value="ja">Ja</option>
-            <option value="en">En</option>
+            <option value="ja">Japanese</option>
+            <option value="en">English</option>
           </select>
         </div>
       </div>
