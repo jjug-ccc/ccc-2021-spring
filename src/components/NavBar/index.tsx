@@ -18,7 +18,7 @@ const NavBar : React.FC = () => {
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="buttons">
-              <a className="button is-danger" href={LINK.register}>
+              <a className="button is-danger" target="_blank" rel="noopener noreferrer" href={LINK.register}>
                 <strong>{t("nav.registerBtn")}</strong>
               </a>
             </div>
