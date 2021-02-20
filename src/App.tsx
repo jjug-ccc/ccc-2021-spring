@@ -2,6 +2,7 @@ import React from 'react';
 import './assets/styles.scss';
 import './App.scss';
 import NavBar from './components/NavBar';
+import SelectLang from './components/SelectLang';
 import Footer from './components/Footer';
 import Description from './components/Description';
 import About from './components/About';
@@ -12,8 +13,6 @@ import { useTranslation } from 'react-i18next';
 
 const App : React.FC = () => {
   const {t, i18n} = useTranslation();
-
-  const changeLanguage = (lng: string) => (i18n.changeLanguage(lng === 'ja' ? 'ja' : 'en'));
 
   return (
     <div className="App">
@@ -32,12 +31,7 @@ const App : React.FC = () => {
         </div>
       </section>
       <div className="container has-text-right mt-2">
-        <div className="select">
-          <select value={i18n.language} onChange={(e) => { changeLanguage(e.target.value)}}>
-            <option value="ja">Japanese</option>
-            <option value="en">English</option>
-          </select>
-        </div>
+        <SelectLang/>
       </div>
       <div className="section">
         <div className="container">
