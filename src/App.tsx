@@ -10,7 +10,7 @@ import Coc from './components/Coc';
 import './i18n';
 import { useTranslation } from 'react-i18next';
 
-function App() {
+const App : React.FC = () => {
   const {t, i18n} = useTranslation();
 
   const changeLanguage = (lng: string) => (i18n.changeLanguage(lng));
