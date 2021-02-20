@@ -8,7 +8,7 @@ const SelectLang : React.FC = () => {
   const changeLanguage = (lng: string) => (i18n.changeLanguage(lng === 'ja' ? 'ja' : 'en'));
 
   return (
-    <div className="select">
+    <div className="select mr-2">
       <select value={i18n.language} onChange={(e) => { changeLanguage(e.target.value)}}>
         <option value="ja">Japanese</option>
         <option value="en">English</option>
