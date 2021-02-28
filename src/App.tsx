@@ -35,17 +35,17 @@ const App : React.FC = () => {
       </div>
       <div className="section">
         <div className="container">
-          <div className="block">
-            <h3 className="title has-text-weight-semibold is-size-3 is-size-5-mobile">{t("contentTitle.description")}</h3>
-            <Description/>
-          </div>
-          <div className="block">
-            <h3 className="title has-text-weight-semibold is-size-3 is-size-5-mobile">{t("contentTitle.aboutJjug")}</h3>
-            <About/>
-          </div>
-          <div className="block">
-            <h3 className="title has-text-weight-semibold is-size-3 is-size-5-mobile">{t("contentTitle.coc")}</h3>
-            <Coc />
+          <div className="columns">
+            <div className="column">
+              <div className="content">
+                <h3 className="title has-text-weight-semibold is-size-3 is-size-5-mobile">{t("contentTitle.description")}</h3>
+                <Description/>
+                <h3 className="title has-text-weight-semibold is-size-3 is-size-5-mobile">{t("contentTitle.aboutJjug")}</h3>
+                <About/>
+                <h3 className="title has-text-weight-semibold is-size-3 is-size-5-mobile">{t("contentTitle.coc")}</h3>
+                <Coc />
+              </div>
+            </div>
           </div>
         </div>
       </div>
