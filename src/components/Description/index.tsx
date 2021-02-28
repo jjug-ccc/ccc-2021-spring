@@ -16,8 +16,6 @@ const Description : React.FC = () => {
       <dd>{t("description.data.date")}</dd>
       <dt>{t("description.title.participationFee")}</dt>
       <dd>{t("description.data.participationFee")}</dd>
-      <dt>{t("description.title.schedule")}</dt>
-      <dd><a href="https://confengine.com/jjug-ccc-2020-fall/schedule/rich" target="blank" rel="noopener">https://confengine.com/jjug-ccc-2020-fall/schedule/rich</a></dd>
       <dt>{t("description.title.hashtag")}</dt>
       <dd><a href="https://twitter.com/search?q=%23jjug_ccc" target="blank" rel="noopener">#jjug_ccc</a>（{t("description.data.hashtag")}）</dd>
     </dl>
