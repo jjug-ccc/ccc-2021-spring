@@ -18,7 +18,6 @@ const CocEn = () => (
     <p>If you are being harassed, notice somebody else is being harassed, or have any other concerns, please contact a member of JJUG staff immediately.</p>
     <ul>
       <li>Email: {CONTACT.email}</li>
-      <li>Web Form: <a href={CONTACT.cocForm} target="_blank" rel="noopener noreferrer">{CONTACT.cocForm}</a></li>
     </ul>
     <p>JJUG will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the event.</p>
     <p>We value your attendance.</p>
