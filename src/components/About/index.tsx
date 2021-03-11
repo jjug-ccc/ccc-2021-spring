@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { LINK } from '../../constant';
 
 const About: React.FC = () => {
-  const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation(); // eslint-disable-line
 
   const text2Array: Array<string> = t("about.text2", { returnObjects: true });
 

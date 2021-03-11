@@ -12,7 +12,7 @@ import './i18n';
 import { useTranslation } from 'react-i18next';
 
 const App : React.FC = () => {
-  const {t, i18n} = useTranslation();
+  const {t, i18n} = useTranslation(); // eslint-disable-line
 
   return (
     <div className="App">

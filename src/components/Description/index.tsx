@@ -4,7 +4,7 @@ import '../../i18n';
 import { useTranslation } from 'react-i18next';
 
 const Description : React.FC = () => {
-  const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation(); // eslint-disable-line
 
   return <div className="content">
     <p>{t("description.text")}</p>
