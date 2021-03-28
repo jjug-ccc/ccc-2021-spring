@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Description from './components/Description';
 import About from './components/About';
 import Coc from './components/Coc';
+import SEO from './components/SEO';
 
 import './i18n';
 import { useTranslation } from 'react-i18next';
@@ -16,6 +17,7 @@ const App : React.FC = () => {
 
   return (
     <div className="App">
+      <SEO/>
       <NavBar/>
       <section className="hero is-primary is-bold is-medium">
         <div className="hero-body">
