@@ -10,8 +10,8 @@ const Footer : React.FC = () => (
       <div className='content'>
         <div className="columns is-desktop">
           <div className="column content has-text-left-desktop">
-            <a href={LINK.facebook} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} size="lg"/></a>
-            <a href={LINK.twitter}  target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} size="lg"/></a>
+            <a className="pr-3" href={LINK.facebook} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} size="lg"/></a>
+            <a className="pr-3" href={LINK.twitter}  target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} size="lg"/></a>
           </div>
           <div className="column content has-text-right-desktop">
             <p>Copyright © 2007-2021 JJUG - All rights reserved.</p>
