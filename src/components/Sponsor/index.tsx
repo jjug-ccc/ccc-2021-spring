@@ -25,9 +25,11 @@ const Sponsor: React.FC<SponsorProps> = ({sponsorType}) => {
         sponsors.map(
           sponsor =>
             <div key={sponsor.image} className="column is-half-mobile is-one-fifth-desktop" style={{ borderRadius: '5px' }}>
-              <div>
-                <a href={sponsor.url} target="_blank" rel="noopener noreferrer"><img alt={sponsor.alt} src={'/static/images/sponsor/' + sponsor.image}/></a>
-              </div>
+              <a href={sponsor.url} target="_blank" rel="noopener noreferrer">
+                <figure className="image is-128x128">
+                  <img alt={sponsor.alt} src={'/static/images/sponsor/' + sponsor.image}/>
+                </figure>
+              </a>
             </div>
         )
       }
@@ -35,4 +37,4 @@ const Sponsor: React.FC<SponsorProps> = ({sponsorType}) => {
   );
 };
 
-export default Sponsor
+export default Sponsor;
