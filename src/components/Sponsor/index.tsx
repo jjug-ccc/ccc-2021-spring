@@ -25,7 +25,7 @@ const Sponsor: React.FC<SponsorProps> = ({sponsorType}) => {
         sponsors.map(
           sponsor =>
             <div key={sponsor.image} className="column is-half-mobile is-one-fifth-desktop" style={{ borderRadius: '5px', borderStyle: 'solid' }}>
-              <figure className="image is-128x128" style={{ borderRadius: '5px', borderStyle: 'solid' }}>
+              <figure className="image is-128x128" style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: '5px', borderStyle: 'solid' }}>
                 <a href={sponsor.url} target="_blank" rel="noopener noreferrer">
                   <img alt={sponsor.alt} src={'/static/images/sponsor/' + sponsor.image}/>
                 </a>
