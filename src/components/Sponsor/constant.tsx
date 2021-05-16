@@ -9,7 +9,7 @@ export const SPONSORS = new Map<
         { image: 'casareal.png', alt: '株式会社カサレアル', url: 'https://www.casareal.co.jp/' },
         { image: 'microsoft.png', alt: '日本マイクロソフト株式会社', url: 'https://azure.microsoft.com/ja-jp/developer/' },
         { image: 'line.png', alt: 'LINE株式会社', url: 'https://engineering.linecorp.com/' },
-        // { image: 'gmo_internet.png', alt: 'GMOインターネット株式会社', url: 'https://developers.gmo.jp/' },
+        { image: 'gmo_internet.png', alt: 'GMOインターネット株式会社', url: 'https://developers.gmo.jp/' },
         { image: 'recruit.png', alt: '株式会社リクルート', url: 'https://recruit-saiyo.jp/' },
         { image: 'azul_systems.png', alt: 'Azul Systems', url: 'https://jp.azul.com/' },
         { image: 'jfrog.png', alt: 'JFrog', url: 'https://jfrog.co.jp/' },
