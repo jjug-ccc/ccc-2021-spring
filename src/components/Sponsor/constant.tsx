@@ -21,7 +21,7 @@ export const SPONSORS = new Map<
     [
       'Silver',
       [
-        { image: 'rakusu.png', alt: '株式会社ラクス', url: 'https://www.rakus.co.jp/' },
+        { image: 'rakusu.png', alt: '株式会社ラクス', url: 'https://career-recruit.rakus.co.jp/career_engineer/?utm_source=jjug&utm_medium=display&utm_campaign=jjugccc2021spring' },
         { image: 'softbank.png', alt: 'ソフトバンク株式会社', url: 'https://recruit.softbank.jp/' },
         { image: 'm3.png', alt: 'エムスリー株式会社', url: 'https://jobs.m3.com/engineer/' }
       ]
